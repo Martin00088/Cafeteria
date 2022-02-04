@@ -1,0 +1,75 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+body{
+    background: #EB5757;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000b9,rgba(235, 87, 87, 0.733)57),url(../fotos/coffee-beans-wallpaper.jpg);;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00000098, #eb5757b4),url(../fotos/coffee-beans-wallpaper.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f136;
+    
+  }
+  
+li a{
+    display: block;
+    color: rgba(255, 255, 255, 0.671);
+    padding: 8px 16px;
+    text-decoration: none;
+    float: left;
+    
+ }
+li a:hover {
+    background-color: rgba(85, 85, 85, 0.445);
+    color: white;
+}
+.container{
+    float: left;
+    margin: 1% auto;
+}
+.titulo{
+    width: 200px;
+    margin:auto;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgba(255, 250, 250, 0.705);
+    border-radius: 3%;
+}
+.firstpic{
+    display: block;
+    margin: auto;
+}
+h2{
+    color: beige;
+    text-align: center;
+}
+.producto{
+    width: 30%;
+    height: 20%;
+    float: left;
+}
+.descripcion{
+    text-align: center;
+    margin: 2% auto;
+    color:honeydew;
+}
+.foto{
+    width: 90%;
+    padding: 5%;
+    margin: 5%;
+ }
+footer{
+    color: gray;
+    text-align: center;
+}
+.foot{
+    background-color: rgba(0, 0, 0, 0.397);
+    align-items: flex-end;
+    float: right;
+}
